@@ -18,8 +18,9 @@ use Nette;
 /**
  * @author Filip Procházka <filip@prochazka.su>
  */
-class ExchangeRate extends Nette\Object
+class ExchangeRate
 {
+	use Nette\SmartObject;
 
 	/**
 	 * @var integer

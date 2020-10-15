@@ -26,8 +26,9 @@ use Nette;
  * @property-read int $subunitsInUnit
  * @property-read string[] $countries
  */
-class Currency extends Nette\Object implements ICurrency
+class Currency implements ICurrency
 {
+	use Nette\SmartObject;
 
 	/**
 	 * @var string

@@ -21,8 +21,9 @@ use Nette;
  *
  * @property Currency $currency
  */
-class Integer extends Nette\Object
+class Integer
 {
+	use Nette\SmartObject;
 
 	/**
 	 * @var int
